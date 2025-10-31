@@ -22,7 +22,7 @@ Before running FileAgent, make sure you have:
 
 - Install uv package manager:
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 - Clone the repository:
