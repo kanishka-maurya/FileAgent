@@ -55,7 +55,7 @@ Type 'exit' or 'quit' to end the conversation.
 You: List all files and folders in path_to_your_folder
 ```
 ```bash
-2. Read a Specific File
+2. Summarise a Specific File
 You: Summarise the content of your_filepath  
 ```
 ```bash
