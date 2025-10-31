@@ -17,7 +17,7 @@ Before running FileAgent, make sure you have:
 
 - **Python ≥ 3.9** installed  
 ```bash
-  python --version
+python --version
 ```
 
 - Install uv package manager:
@@ -27,13 +27,13 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 - Clone the repository:
 ```bash
-  git clone https://github.com/kanishka-maurya/FileAgent.git
-  cd FileAgent
+git clone https://github.com/kanishka-maurya/FileAgent.git
+cd FileAgent
 ```
 
 - This will create a virtual environment and install dependencies defined in pyproject.toml:
 ```bash
-  uv sync
+uv sync
 ```
 
 - Configure you groq_api_key and run the file:
